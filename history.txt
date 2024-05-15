@@ -1,0 +1,30 @@
+  389  git init
+  390  git config --local user.email dariusz.secop@gmail.com
+  391  touch main.cpp
+  394  git commit -m "Initial commit"
+  397  git commit -m "Farewell changed"
+  398  git remote add origin git@github.com:dsecop/git-task.git
+  399  git branch --help
+  400  git push -u origin master
+  401  git push -u origin main
+  402  git checkout -b cs
+  403  ls
+  405  git reset --hard HEAD^
+  409  git commit -m "Greetings"
+  411  git push origin cs
+  414  git log
+  416  git pull
+  417  git checkout -
+  418  git rebase main -p
+  419  git checkout main
+  420  git merge --no-ff -e -m "Greetings merge"
+  421  git merge --no-ff -e -
+  423  vim main.cpp
+  425  git add -p
+  426  git add .
+  428  git commit
+  429  git status
+  430  history
+  431  history 30
+  432  history | tail -n28 > history.txt
+  433  cat history.txt
